@@ -3,8 +3,8 @@
 $verboseSettings = $VerbosePreference
 $VerbosePreference = 'Continue'
 $toolsPath = "C:\temp\Tools"
-$optimalizationScriptURL = 'https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool/archive/refs/heads/master.zip'
-$optimalizationScriptZIP = "$toolsPath\WVDOptimalization.zip"
+$optimalizationScriptURL = 'https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool/archive/refs/heads/main.zip'
+$optimalizationScriptZIP = "$toolsPath\Virtual-Desktop-Optimization-Tool-main.zip"
 $OptimalizationFolderName = "$toolsPath\" + [System.IO.Path]::GetFileNameWithoutExtension("$optimalizationScriptZIP")
  
 $toolsTest = Test-Path -Path $toolsPath
